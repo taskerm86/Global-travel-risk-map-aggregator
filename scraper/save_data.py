@@ -1,5 +1,6 @@
 import requests
 import json
+import time
 
 ALERT_TO_LEVEL = {
     "normal": 1,
@@ -16,22 +17,27 @@ def scrape_fcdo():
     countries = []
     children = data["links"]["children"]
     print(f"Found {len(children)} countries, fetching risk levels...")
-    for i, link in enumerate(children[:20]):
-        slug = link["base_path"].replace("/foreign-travel-advice/", "")
-        detail = requests.get(f"https://www.gov.uk/api/content/foreign-travel-advice/{slug}").json()
-        alert = detail.get("details", {}).get("alert_status", [])
-        alert_str = alert[0] if alert else "normal"
-        level = ALERT_TO_LEVEL.get(alert_str, 1)
-        country = {
-            "name": link["title"].replace(" travel advice", ""),
-            "slug": slug,
-            "alert": alert_str,
-            "level": level,
-            "source": "fcdo",
-            "url": "https://www.gov.uk" + link["base_path"]
-        }
-        countries.append(country)
-        print(f"{i+1}. {country['name']} -> Level {level}")
+    for i, link in enumerate(children):
+        try:
+            slug = link["base_path"].replace("/foreign-travel-advice/", "")
+            detail = requests.get(f"https://www.gov.uk/api/content/foreign-travel-advice/{slug}").json()
+            alert = detail.get("details", {}).get("alert_status", [])
+            alert_str = alert[0] if alert else "normal"
+            level = ALERT_TO_LEVEL.get(alert_str, 1)
+            country = {
+                "name": link["title"].replace(" travel advice", ""),
+                "slug": slug,
+                "alert": alert_str,
+                "level": level,
+                "source": "fcdo",
+                "url": "https://www.gov.uk" + link["base_path"]
+            }
+            countries.append(country)
+            print(f"{i+1}. {country['name']} -> Level {level}")
+            time.sleep(0.2)
+        except Exception as e:
+            print(f"Error on {link}: {e}")
+            continue
     return countries
 
 data = scrape_fcdo()
