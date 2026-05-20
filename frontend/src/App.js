@@ -11,7 +11,7 @@ export default function App() {
   const [selected, setSelected] = useState(null);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/advisories")
+    fetch("https://travel-risk-map-api.onrender.com/advisories")
       .then(r => r.json())
       .then(data => { console.log("Loaded advisories:", data); setAdvisories(data); })
       .catch(e => console.error("API error:", e));
