@@ -3,7 +3,9 @@
     "name": "Croatia",
     "slug": "croatia",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/croatia"
   },
@@ -11,7 +13,9 @@
     "name": "Bosnia and Herzegovina",
     "slug": "bosnia-and-herzegovina",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/bosnia-and-herzegovina"
   },
@@ -19,7 +23,11 @@
     "name": "Ecuador",
     "slug": "ecuador",
     "alert": "avoid_all_but_essential_travel_to_parts",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_parts"
+    ],
     "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/ecuador"
   },
@@ -27,7 +35,11 @@
     "name": "Turkey",
     "slug": "turkey",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/turkey"
   },
@@ -35,7 +47,11 @@
     "name": "Peru",
     "slug": "peru",
     "alert": "avoid_all_but_essential_travel_to_parts",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_parts"
+    ],
     "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/peru"
   },
@@ -43,7 +59,12 @@
     "name": "Bolivia",
     "slug": "bolivia",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts",
+      "avoid_all_but_essential_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": true,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/bolivia"
   },
@@ -51,7 +72,11 @@
     "name": "Colombia",
     "slug": "colombia",
     "alert": "avoid_all_but_essential_travel_to_parts",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_parts"
+    ],
     "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/colombia"
   },
@@ -59,7 +84,9 @@
     "name": "Chile",
     "slug": "chile",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/chile"
   },
@@ -67,7 +94,9 @@
     "name": "Uganda",
     "slug": "uganda",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/uganda"
   },
@@ -75,7 +104,11 @@
     "name": "Tanzania",
     "slug": "tanzania",
     "alert": "avoid_all_but_essential_travel_to_parts",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_parts"
+    ],
     "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/tanzania"
   },
@@ -83,7 +116,9 @@
     "name": "USA",
     "slug": "usa",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/usa"
   },
@@ -91,7 +126,11 @@
     "name": "Mexico",
     "slug": "mexico",
     "alert": "avoid_all_but_essential_travel_to_parts",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_parts"
+    ],
     "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/mexico"
   },
@@ -99,7 +138,9 @@
     "name": "Canada",
     "slug": "canada",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/canada"
   },
@@ -107,7 +148,9 @@
     "name": "Costa Rica",
     "slug": "costa-rica",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/costa-rica"
   },
@@ -115,7 +158,12 @@
     "name": "Democratic Republic of the Congo",
     "slug": "democratic-republic-of-the-congo",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts",
+      "avoid_all_but_essential_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": true,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/democratic-republic-of-the-congo"
   },
@@ -123,7 +171,12 @@
     "name": "Mozambique",
     "slug": "mozambique",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts",
+      "avoid_all_but_essential_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": true,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/mozambique"
   },
@@ -131,15 +184,21 @@
     "name": "Austria",
     "slug": "austria",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/austria"
   },
   {
     "name": "Cuba",
     "slug": "cuba",
-    "alert": "avoid_all_but_essential_travel_to_whole_country",
+    "alert": "normal",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_whole_country"
+    ],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/cuba"
   },
@@ -147,7 +206,9 @@
     "name": "Belize",
     "slug": "belize",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/belize"
   },
@@ -155,7 +216,9 @@
     "name": "Turkmenistan",
     "slug": "turkmenistan",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan"
   },
@@ -163,7 +226,11 @@
     "name": "Chad",
     "slug": "chad",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/chad"
   },
@@ -171,7 +238,9 @@
     "name": "Finland",
     "slug": "finland",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/finland"
   },
@@ -179,7 +248,9 @@
     "name": "China",
     "slug": "china",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/china"
   },
@@ -187,7 +258,9 @@
     "name": "South Korea",
     "slug": "south-korea",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/south-korea"
   },
@@ -195,7 +268,11 @@
     "name": "Somalia",
     "slug": "somalia",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/somalia"
   },
@@ -203,7 +280,9 @@
     "name": "Senegal",
     "slug": "senegal",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/senegal"
   },
@@ -211,7 +290,9 @@
     "name": "Maldives",
     "slug": "maldives",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/maldives"
   },
@@ -219,7 +300,12 @@
     "name": "Pakistan",
     "slug": "pakistan",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts",
+      "avoid_all_but_essential_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": true,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/pakistan"
   },
@@ -227,7 +313,11 @@
     "name": "Sudan",
     "slug": "sudan",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/sudan"
   },
@@ -235,7 +325,9 @@
     "name": "South Africa",
     "slug": "south-africa",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/south-africa"
   },
@@ -243,7 +335,11 @@
     "name": "Belarus",
     "slug": "belarus",
     "alert": "avoid_all_travel_to_whole_country",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_whole_country"
+    ],
+    "level": 4,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/belarus"
   },
@@ -251,7 +347,11 @@
     "name": "Brazil",
     "slug": "brazil",
     "alert": "avoid_all_but_essential_travel_to_parts",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_parts"
+    ],
     "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/brazil"
   },
@@ -259,7 +359,12 @@
     "name": "Azerbaijan",
     "slug": "azerbaijan",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts",
+      "avoid_all_but_essential_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": true,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/azerbaijan"
   },
@@ -267,7 +372,9 @@
     "name": "Argentina",
     "slug": "argentina",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/argentina"
   },
@@ -275,7 +382,11 @@
     "name": "Iraq",
     "slug": "iraq",
     "alert": "avoid_all_travel_to_whole_country",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_whole_country"
+    ],
+    "level": 4,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/iraq"
   },
@@ -283,7 +394,9 @@
     "name": "St Helena, Ascension and Tristan da Cunha",
     "slug": "st-helena-ascension-and-tristan-da-cunha",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/st-helena-ascension-and-tristan-da-cunha"
   },
@@ -291,7 +404,9 @@
     "name": "Jamaica",
     "slug": "jamaica",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/jamaica"
   },
@@ -299,7 +414,11 @@
     "name": "Russia",
     "slug": "russia",
     "alert": "avoid_all_travel_to_whole_country",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_whole_country"
+    ],
+    "level": 4,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/russia"
   },
@@ -307,7 +426,11 @@
     "name": "Mali",
     "slug": "mali",
     "alert": "avoid_all_travel_to_whole_country",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_whole_country"
+    ],
+    "level": 4,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/mali"
   },
@@ -315,7 +438,9 @@
     "name": "Norway",
     "slug": "norway",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/norway"
   },
@@ -323,7 +448,12 @@
     "name": "Ethiopia",
     "slug": "ethiopia",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts",
+      "avoid_all_but_essential_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": true,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/ethiopia"
   },
@@ -331,7 +461,9 @@
     "name": "Belgium",
     "slug": "belgium",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/belgium"
   },
@@ -339,7 +471,11 @@
     "name": "Bangladesh",
     "slug": "bangladesh",
     "alert": "avoid_all_but_essential_travel_to_parts",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_parts"
+    ],
     "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/bangladesh"
   },
@@ -347,7 +483,9 @@
     "name": "Spain",
     "slug": "spain",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/spain"
   },
@@ -355,7 +493,9 @@
     "name": "Oman",
     "slug": "oman",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/oman"
   },
@@ -363,7 +503,11 @@
     "name": "Afghanistan",
     "slug": "afghanistan",
     "alert": "avoid_all_travel_to_whole_country",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_whole_country"
+    ],
+    "level": 4,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/afghanistan"
   },
@@ -371,15 +515,23 @@
     "name": "Burundi",
     "slug": "burundi",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/burundi"
   },
   {
     "name": "Kuwait",
     "slug": "kuwait",
-    "alert": "avoid_all_but_essential_travel_to_whole_country",
+    "alert": "normal",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_whole_country"
+    ],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/kuwait"
   },
@@ -387,7 +539,9 @@
     "name": "Japan",
     "slug": "japan",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/japan"
   },
@@ -395,7 +549,12 @@
     "name": "Kenya",
     "slug": "kenya",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts",
+      "avoid_all_but_essential_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": true,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/kenya"
   },
@@ -403,7 +562,9 @@
     "name": "Portugal",
     "slug": "portugal",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/portugal"
   },
@@ -411,7 +572,11 @@
     "name": "Eritrea",
     "slug": "eritrea",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/eritrea"
   },
@@ -419,7 +584,9 @@
     "name": "St Vincent and the Grenadines",
     "slug": "st-vincent-and-the-grenadines",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/st-vincent-and-the-grenadines"
   },
@@ -427,7 +594,11 @@
     "name": "Laos",
     "slug": "laos",
     "alert": "avoid_all_but_essential_travel_to_parts",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_parts"
+    ],
     "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/laos"
   },
@@ -435,7 +606,11 @@
     "name": "India",
     "slug": "india",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/india"
   },
@@ -443,7 +618,11 @@
     "name": "Cambodia",
     "slug": "cambodia",
     "alert": "avoid_all_but_essential_travel_to_parts",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_parts"
+    ],
     "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/cambodia"
   },
@@ -451,7 +630,11 @@
     "name": "Papua New Guinea",
     "slug": "papua-new-guinea",
     "alert": "avoid_all_but_essential_travel_to_parts",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_parts"
+    ],
     "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/papua-new-guinea"
   },
@@ -459,7 +642,9 @@
     "name": "Solomon Islands",
     "slug": "solomon-islands",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/solomon-islands"
   },
@@ -467,7 +652,9 @@
     "name": "Nauru",
     "slug": "nauru",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/nauru"
   },
@@ -475,7 +662,9 @@
     "name": "Tonga",
     "slug": "tonga",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/tonga"
   },
@@ -483,7 +672,9 @@
     "name": "Samoa",
     "slug": "samoa",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/samoa"
   },
@@ -491,7 +682,9 @@
     "name": "Vanuatu",
     "slug": "vanuatu",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/vanuatu"
   },
@@ -499,7 +692,9 @@
     "name": "Fiji",
     "slug": "fiji",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/fiji"
   },
@@ -507,7 +702,9 @@
     "name": "Kiribati",
     "slug": "kiribati",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/kiribati"
   },
@@ -515,7 +712,9 @@
     "name": "Marshall Islands",
     "slug": "marshall-islands",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/marshall-islands"
   },
@@ -523,7 +722,9 @@
     "name": "Federated States of Micronesia",
     "slug": "federated-states-of-micronesia",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/federated-states-of-micronesia"
   },
@@ -531,7 +732,9 @@
     "name": "Tuvalu",
     "slug": "tuvalu",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/tuvalu"
   },
@@ -539,7 +742,11 @@
     "name": "Thailand",
     "slug": "thailand",
     "alert": "avoid_all_but_essential_travel_to_parts",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_parts"
+    ],
     "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/thailand"
   },
@@ -547,7 +754,9 @@
     "name": "New Zealand",
     "slug": "new-zealand",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/new-zealand"
   },
@@ -555,7 +764,9 @@
     "name": "Australia",
     "slug": "australia",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/australia"
   },
@@ -563,7 +774,9 @@
     "name": "Brunei",
     "slug": "brunei",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/brunei"
   },
@@ -571,7 +784,11 @@
     "name": "Indonesia",
     "slug": "indonesia",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/indonesia"
   },
@@ -579,7 +796,9 @@
     "name": "Singapore",
     "slug": "singapore",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/singapore"
   },
@@ -587,7 +806,9 @@
     "name": "Vietnam",
     "slug": "vietnam",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/vietnam"
   },
@@ -595,7 +816,11 @@
     "name": "Philippines",
     "slug": "philippines",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/philippines"
   },
@@ -603,7 +828,9 @@
     "name": "Uzbekistan",
     "slug": "uzbekistan",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/uzbekistan"
   },
@@ -611,7 +838,11 @@
     "name": "Georgia",
     "slug": "georgia",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/georgia"
   },
@@ -619,7 +850,9 @@
     "name": "Tajikistan",
     "slug": "tajikistan",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/tajikistan"
   },
@@ -627,7 +860,9 @@
     "name": "Nepal",
     "slug": "nepal",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/nepal"
   },
@@ -635,7 +870,11 @@
     "name": "Malaysia",
     "slug": "malaysia",
     "alert": "avoid_all_but_essential_travel_to_parts",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_parts"
+    ],
     "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/malaysia"
   },
@@ -643,7 +882,9 @@
     "name": "Sri Lanka",
     "slug": "sri-lanka",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/sri-lanka"
   },
@@ -651,7 +892,9 @@
     "name": "Switzerland",
     "slug": "switzerland",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/switzerland"
   },
@@ -659,7 +902,9 @@
     "name": "Sweden",
     "slug": "sweden",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/sweden"
   },
@@ -667,7 +912,9 @@
     "name": "Slovakia",
     "slug": "slovakia",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/slovakia"
   },
@@ -675,7 +922,9 @@
     "name": "Slovenia",
     "slug": "slovenia",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/slovenia"
   },
@@ -683,7 +932,9 @@
     "name": "Romania",
     "slug": "romania",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/romania"
   },
@@ -691,7 +942,9 @@
     "name": "Poland",
     "slug": "poland",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/poland"
   },
@@ -699,7 +952,9 @@
     "name": "Netherlands",
     "slug": "netherlands",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/netherlands"
   },
@@ -707,7 +962,9 @@
     "name": "Malta",
     "slug": "malta",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/malta"
   },
@@ -715,7 +972,9 @@
     "name": "Luxembourg",
     "slug": "luxembourg",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/luxembourg"
   },
@@ -723,7 +982,9 @@
     "name": "Lithuania",
     "slug": "lithuania",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/lithuania"
   },
@@ -731,7 +992,9 @@
     "name": "Liechtenstein",
     "slug": "liechtenstein",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/liechtenstein"
   },
@@ -739,7 +1002,9 @@
     "name": "Latvia",
     "slug": "latvia",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/latvia"
   },
@@ -747,7 +1012,9 @@
     "name": "Italy",
     "slug": "italy",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/italy"
   },
@@ -755,7 +1022,9 @@
     "name": "Iceland",
     "slug": "iceland",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/iceland"
   },
@@ -763,7 +1032,9 @@
     "name": "Hungary",
     "slug": "hungary",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/hungary"
   },
@@ -771,7 +1042,9 @@
     "name": "Greece",
     "slug": "greece",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/greece"
   },
@@ -779,7 +1052,9 @@
     "name": "Germany",
     "slug": "germany",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/germany"
   },
@@ -787,7 +1062,9 @@
     "name": "Estonia",
     "slug": "estonia",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/estonia"
   },
@@ -795,7 +1072,9 @@
     "name": "Denmark",
     "slug": "denmark",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/denmark"
   },
@@ -803,7 +1082,9 @@
     "name": "Czechia",
     "slug": "czechia",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/czechia"
   },
@@ -811,7 +1092,9 @@
     "name": "Bulgaria",
     "slug": "bulgaria",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/bulgaria"
   },
@@ -819,15 +1102,21 @@
     "name": "France",
     "slug": "france",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/france"
   },
   {
     "name": "Bahrain",
     "slug": "bahrain",
-    "alert": "avoid_all_but_essential_travel_to_whole_country",
+    "alert": "normal",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_whole_country"
+    ],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/bahrain"
   },
@@ -835,7 +1124,12 @@
     "name": "Saudi Arabia",
     "slug": "saudi-arabia",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts",
+      "avoid_all_but_essential_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": true,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia"
   },
@@ -843,15 +1137,23 @@
     "name": "Guatemala",
     "slug": "guatemala",
     "alert": "avoid_all_but_essential_travel_to_parts",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_parts"
+    ],
     "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/guatemala"
   },
   {
     "name": "United Arab Emirates",
     "slug": "united-arab-emirates",
-    "alert": "avoid_all_but_essential_travel_to_whole_country",
+    "alert": "normal",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_whole_country"
+    ],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates"
   },
@@ -859,15 +1161,23 @@
     "name": "Algeria",
     "slug": "algeria",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/algeria"
   },
   {
     "name": "Qatar",
     "slug": "qatar",
-    "alert": "avoid_all_but_essential_travel_to_whole_country",
+    "alert": "normal",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_whole_country"
+    ],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/qatar"
   },
@@ -875,7 +1185,11 @@
     "name": "Palestine",
     "slug": "palestine",
     "alert": "avoid_all_travel_to_whole_country",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_whole_country"
+    ],
+    "level": 4,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/palestine"
   },
@@ -883,7 +1197,11 @@
     "name": "Israel",
     "slug": "israel",
     "alert": "avoid_all_travel_to_whole_country",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_whole_country"
+    ],
+    "level": 4,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/israel"
   },
@@ -891,7 +1209,12 @@
     "name": "Jordan",
     "slug": "jordan",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts",
+      "avoid_all_but_essential_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": true,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/jordan"
   },
@@ -899,7 +1222,12 @@
     "name": "Lebanon",
     "slug": "lebanon",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts",
+      "avoid_all_but_essential_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": true,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/lebanon"
   },
@@ -907,7 +1235,11 @@
     "name": "Iran",
     "slug": "iran",
     "alert": "avoid_all_travel_to_whole_country",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_whole_country"
+    ],
+    "level": 4,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/iran"
   },
@@ -915,7 +1247,11 @@
     "name": "Djibouti",
     "slug": "djibouti",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/djibouti"
   },
@@ -923,7 +1259,9 @@
     "name": "Dominican Republic",
     "slug": "dominican-republic",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/dominican-republic"
   },
@@ -931,7 +1269,11 @@
     "name": "Ghana",
     "slug": "ghana",
     "alert": "avoid_all_but_essential_travel_to_parts",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_parts"
+    ],
     "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/ghana"
   },
@@ -939,7 +1281,9 @@
     "name": "Trinidad and Tobago",
     "slug": "trinidad-and-tobago",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/trinidad-and-tobago"
   },
@@ -947,7 +1291,9 @@
     "name": "Taiwan",
     "slug": "taiwan",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/taiwan"
   },
@@ -955,7 +1301,11 @@
     "name": "Armenia",
     "slug": "armenia",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/armenia"
   },
@@ -963,7 +1313,9 @@
     "name": "Antigua and Barbuda",
     "slug": "antigua-and-barbuda",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/antigua-and-barbuda"
   },
@@ -971,7 +1323,9 @@
     "name": "Uruguay",
     "slug": "uruguay",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/uruguay"
   },
@@ -979,7 +1333,9 @@
     "name": "Kazakhstan",
     "slug": "kazakhstan",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/kazakhstan"
   },
@@ -987,7 +1343,9 @@
     "name": "St Kitts and Nevis",
     "slug": "st-kitts-and-nevis",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/st-kitts-and-nevis"
   },
@@ -995,7 +1353,12 @@
     "name": "Ukraine",
     "slug": "ukraine",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts",
+      "avoid_all_but_essential_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": true,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/ukraine"
   },
@@ -1003,7 +1366,9 @@
     "name": "Hong Kong (SAR of China)",
     "slug": "hong-kong",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/hong-kong"
   },
@@ -1011,7 +1376,11 @@
     "name": "Nigeria",
     "slug": "nigeria",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/nigeria"
   },
@@ -1019,7 +1388,9 @@
     "name": "Andorra",
     "slug": "andorra",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/andorra"
   },
@@ -1027,7 +1398,12 @@
     "name": "Egypt",
     "slug": "egypt",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts",
+      "avoid_all_but_essential_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": true,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/egypt"
   },
@@ -1035,7 +1411,9 @@
     "name": "Malawi",
     "slug": "malawi",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/malawi"
   },
@@ -1043,7 +1421,11 @@
     "name": "Mauritania",
     "slug": "mauritania",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/mauritania"
   },
@@ -1051,7 +1433,9 @@
     "name": "Botswana",
     "slug": "botswana",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/botswana"
   },
@@ -1059,7 +1443,9 @@
     "name": "Turks and Caicos Islands (British Overseas Territory)",
     "slug": "turks-and-caicos-islands",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/turks-and-caicos-islands"
   },
@@ -1067,7 +1453,12 @@
     "name": "Venezuela",
     "slug": "venezuela",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts",
+      "avoid_all_but_essential_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": true,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/venezuela"
   },
@@ -1075,7 +1466,11 @@
     "name": "Yemen",
     "slug": "yemen",
     "alert": "avoid_all_travel_to_whole_country",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_whole_country"
+    ],
+    "level": 4,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/yemen"
   },
@@ -1083,7 +1478,9 @@
     "name": "Cyprus",
     "slug": "cyprus",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/cyprus"
   },
@@ -1091,7 +1488,11 @@
     "name": "Syria",
     "slug": "syria",
     "alert": "avoid_all_travel_to_whole_country",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_whole_country"
+    ],
+    "level": 4,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/syria"
   },
@@ -1099,7 +1500,9 @@
     "name": "Kyrgyzstan",
     "slug": "kyrgyzstan",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/kyrgyzstan"
   },
@@ -1107,7 +1510,9 @@
     "name": "Cape Verde",
     "slug": "cape-verde",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/cape-verde"
   },
@@ -1115,7 +1520,9 @@
     "name": "Ireland",
     "slug": "ireland",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/ireland"
   },
@@ -1123,7 +1530,11 @@
     "name": "Tunisia",
     "slug": "tunisia",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/tunisia"
   },
@@ -1131,7 +1542,9 @@
     "name": "Dominica",
     "slug": "dominica",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/dominica"
   },
@@ -1139,7 +1552,9 @@
     "name": "The Gambia",
     "slug": "the-gambia",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/the-gambia"
   },
@@ -1147,7 +1562,9 @@
     "name": "Guyana",
     "slug": "guyana",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/guyana"
   },
@@ -1155,7 +1572,9 @@
     "name": "Madagascar",
     "slug": "madagascar",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/madagascar"
   },
@@ -1163,7 +1582,9 @@
     "name": "Morocco",
     "slug": "morocco",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/morocco"
   },
@@ -1171,7 +1592,11 @@
     "name": "Niger",
     "slug": "niger",
     "alert": "avoid_all_travel_to_whole_country",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_whole_country"
+    ],
+    "level": 4,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/niger"
   },
@@ -1179,7 +1604,9 @@
     "name": "Liberia",
     "slug": "liberia",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/liberia"
   },
@@ -1187,7 +1614,9 @@
     "name": "Guinea",
     "slug": "guinea",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/guinea"
   },
@@ -1195,7 +1624,12 @@
     "name": "Cameroon",
     "slug": "cameroon",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts",
+      "avoid_all_but_essential_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": true,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/cameroon"
   },
@@ -1203,7 +1637,9 @@
     "name": "North Macedonia",
     "slug": "north-macedonia",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/north-macedonia"
   },
@@ -1211,7 +1647,9 @@
     "name": "Montenegro",
     "slug": "montenegro",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/montenegro"
   },
@@ -1219,7 +1657,9 @@
     "name": "Serbia",
     "slug": "serbia",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/serbia"
   },
@@ -1227,7 +1667,11 @@
     "name": "C\u00f4te d'Ivoire",
     "slug": "cote-d-ivoire",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/cote-d-ivoire"
   },
@@ -1235,7 +1679,12 @@
     "name": "Myanmar",
     "slug": "myanmar",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts",
+      "avoid_all_but_essential_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": true,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/myanmar"
   },
@@ -1243,7 +1692,9 @@
     "name": "Barbados",
     "slug": "barbados",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/barbados"
   },
@@ -1251,7 +1702,9 @@
     "name": "Paraguay",
     "slug": "paraguay",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/paraguay"
   },
@@ -1259,7 +1712,9 @@
     "name": "Seychelles",
     "slug": "seychelles",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/seychelles"
   },
@@ -1267,7 +1722,9 @@
     "name": "Sierra Leone",
     "slug": "sierra-leone",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/sierra-leone"
   },
@@ -1275,7 +1732,9 @@
     "name": "Zimbabwe",
     "slug": "zimbabwe",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/zimbabwe"
   },
@@ -1283,7 +1742,9 @@
     "name": "Comoros",
     "slug": "comoros",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/comoros"
   },
@@ -1291,7 +1752,9 @@
     "name": "Honduras",
     "slug": "honduras",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/honduras"
   },
@@ -1299,7 +1762,9 @@
     "name": "El Salvador",
     "slug": "el-salvador",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/el-salvador"
   },
@@ -1307,7 +1772,9 @@
     "name": "Nicaragua",
     "slug": "nicaragua",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/nicaragua"
   },
@@ -1315,7 +1782,9 @@
     "name": "Falkland Islands (British Overseas Territory)",
     "slug": "falkland-islands",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/falkland-islands"
   },
@@ -1323,7 +1792,12 @@
     "name": "Libya",
     "slug": "libya",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts",
+      "avoid_all_but_essential_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": true,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/libya"
   },
@@ -1331,7 +1805,9 @@
     "name": "Albania",
     "slug": "albania",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/albania"
   },
@@ -1339,7 +1815,9 @@
     "name": "Equatorial Guinea",
     "slug": "equatorial-guinea",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/equatorial-guinea"
   },
@@ -1347,7 +1825,9 @@
     "name": "Macao (SAR of China)",
     "slug": "macao",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/macao"
   },
@@ -1355,7 +1835,9 @@
     "name": "Bahamas",
     "slug": "bahamas",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/bahamas"
   },
@@ -1363,7 +1845,9 @@
     "name": "Mongolia",
     "slug": "mongolia",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/mongolia"
   },
@@ -1371,7 +1855,12 @@
     "name": "Benin",
     "slug": "benin",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts",
+      "avoid_all_but_essential_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": true,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/benin"
   },
@@ -1379,7 +1868,11 @@
     "name": "Kosovo",
     "slug": "kosovo",
     "alert": "avoid_all_but_essential_travel_to_parts",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_parts"
+    ],
     "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/kosovo"
   },
@@ -1387,7 +1880,11 @@
     "name": "Rwanda",
     "slug": "rwanda",
     "alert": "avoid_all_but_essential_travel_to_parts",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_parts"
+    ],
     "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/rwanda"
   },
@@ -1395,7 +1892,9 @@
     "name": "Guinea-Bissau",
     "slug": "guinea-bissau",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/guinea-bissau"
   },
@@ -1403,7 +1902,12 @@
     "name": "Togo",
     "slug": "togo",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts",
+      "avoid_all_but_essential_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": true,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/togo"
   },
@@ -1411,7 +1915,11 @@
     "name": "Haiti",
     "slug": "haiti",
     "alert": "avoid_all_travel_to_whole_country",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_whole_country"
+    ],
+    "level": 4,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/haiti"
   },
@@ -1419,7 +1927,9 @@
     "name": "Guadeloupe",
     "slug": "guadeloupe",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/guadeloupe"
   },
@@ -1427,7 +1937,9 @@
     "name": "Grenada",
     "slug": "grenada",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/grenada"
   },
@@ -1435,7 +1947,9 @@
     "name": "Monaco",
     "slug": "monaco",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/monaco"
   },
@@ -1443,7 +1957,11 @@
     "name": "Moldova",
     "slug": "moldova",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/moldova"
   },
@@ -1451,7 +1969,9 @@
     "name": "Cook Islands, Tokelau and Niue",
     "slug": "cook-islands-tokelau-and-niue",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/cook-islands-tokelau-and-niue"
   },
@@ -1459,7 +1979,11 @@
     "name": "Congo",
     "slug": "congo",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/congo"
   },
@@ -1467,7 +1991,9 @@
     "name": "Mayotte",
     "slug": "mayotte",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/mayotte"
   },
@@ -1475,7 +2001,11 @@
     "name": "South Sudan",
     "slug": "south-sudan",
     "alert": "avoid_all_travel_to_whole_country",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_whole_country"
+    ],
+    "level": 4,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/south-sudan"
   },
@@ -1483,7 +2013,9 @@
     "name": "Mauritius",
     "slug": "mauritius",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/mauritius"
   },
@@ -1491,7 +2023,9 @@
     "name": "Martinique",
     "slug": "martinique",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/martinique"
   },
@@ -1499,7 +2033,9 @@
     "name": "Gabon",
     "slug": "gabon",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/gabon"
   },
@@ -1507,7 +2043,9 @@
     "name": "French Polynesia",
     "slug": "french-polynesia",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/french-polynesia"
   },
@@ -1515,7 +2053,9 @@
     "name": "French Guiana",
     "slug": "french-guiana",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/french-guiana"
   },
@@ -1523,7 +2063,9 @@
     "name": "Sao Tome & Pr\u00edncipe",
     "slug": "sao-tome-and-principe",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/sao-tome-and-principe"
   },
@@ -1531,7 +2073,9 @@
     "name": "San Marino",
     "slug": "san-marino",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/san-marino"
   },
@@ -1539,7 +2083,9 @@
     "name": "Eswatini",
     "slug": "eswatini",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/eswatini"
   },
@@ -1547,7 +2093,9 @@
     "name": "R\u00e9union",
     "slug": "reunion",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/reunion"
   },
@@ -1555,7 +2103,9 @@
     "name": "Panama",
     "slug": "panama",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/panama"
   },
@@ -1563,15 +2113,21 @@
     "name": "Palau",
     "slug": "palau",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/palau"
   },
   {
     "name": "Korea, DPR (North Korea)",
     "slug": "north-korea",
-    "alert": "avoid_all_but_essential_travel_to_whole_country",
+    "alert": "normal",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_whole_country"
+    ],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/north-korea"
   },
@@ -1579,7 +2135,9 @@
     "name": "New Caledonia",
     "slug": "new-caledonia",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/new-caledonia"
   },
@@ -1587,7 +2145,11 @@
     "name": "Central African Republic",
     "slug": "central-african-republic",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/central-african-republic"
   },
@@ -1595,7 +2157,9 @@
     "name": "Cura\u00e7ao",
     "slug": "curacao",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/curacao"
   },
@@ -1603,7 +2167,9 @@
     "name": "Namibia",
     "slug": "namibia",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/namibia"
   },
@@ -1611,7 +2177,11 @@
     "name": "Burkina Faso",
     "slug": "burkina-faso",
     "alert": "avoid_all_travel_to_whole_country",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_whole_country"
+    ],
+    "level": 4,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/burkina-faso"
   },
@@ -1619,7 +2189,9 @@
     "name": "Lesotho",
     "slug": "lesotho",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/lesotho"
   },
@@ -1627,7 +2199,9 @@
     "name": "Bonaire, St Eustatius and Saba",
     "slug": "bonaire-st-eustatius-saba",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/bonaire-st-eustatius-saba"
   },
@@ -1635,7 +2209,9 @@
     "name": "Bhutan",
     "slug": "bhutan",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/bhutan"
   },
@@ -1643,7 +2219,9 @@
     "name": "Zambia",
     "slug": "zambia",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/zambia"
   },
@@ -1651,7 +2229,11 @@
     "name": "Western Sahara",
     "slug": "western-sahara",
     "alert": "avoid_all_travel_to_parts",
-    "level": 1,
+    "all_alerts": [
+      "avoid_all_travel_to_parts"
+    ],
+    "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/western-sahara"
   },
@@ -1659,7 +2241,9 @@
     "name": "Wallis & Futuna Islands",
     "slug": "wallis-and-futuna",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/wallis-and-futuna"
   },
@@ -1667,7 +2251,9 @@
     "name": "Aruba",
     "slug": "aruba",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/aruba"
   },
@@ -1675,7 +2261,9 @@
     "name": "East Timor (Timor-Leste)",
     "slug": "timor-leste",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/timor-leste"
   },
@@ -1683,7 +2271,11 @@
     "name": "Angola",
     "slug": "angola",
     "alert": "avoid_all_but_essential_travel_to_parts",
+    "all_alerts": [
+      "avoid_all_but_essential_travel_to_parts"
+    ],
     "level": 3,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/angola"
   },
@@ -1691,7 +2283,9 @@
     "name": "Suriname",
     "slug": "suriname",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/suriname"
   },
@@ -1699,7 +2293,9 @@
     "name": "St Pierre & Miquelon",
     "slug": "st-pierre-and-miquelon",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/st-pierre-and-miquelon"
   },
@@ -1707,7 +2303,9 @@
     "name": "St Martin and St Barth\u00e9lemy",
     "slug": "st-martin-and-st-barthelemy",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/st-martin-and-st-barthelemy"
   },
@@ -1715,7 +2313,9 @@
     "name": "St Maarten",
     "slug": "st-maarten",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/st-maarten"
   },
@@ -1723,7 +2323,9 @@
     "name": "St Lucia",
     "slug": "st-lucia",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/st-lucia"
   },
@@ -1731,7 +2333,9 @@
     "name": "British Virgin Islands (British Overseas Territory)",
     "slug": "british-virgin-islands",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/british-virgin-islands"
   },
@@ -1739,7 +2343,9 @@
     "name": "Bermuda (British Overseas Territory)",
     "slug": "bermuda",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/bermuda"
   },
@@ -1747,7 +2353,9 @@
     "name": "Cayman Islands (British Overseas Territory)",
     "slug": "cayman-islands",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/cayman-islands"
   },
@@ -1755,7 +2363,9 @@
     "name": "South Georgia and South Sandwich Islands (British Overseas Territory)",
     "slug": "south-georgia-and-south-sandwich-islands",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/south-georgia-and-south-sandwich-islands"
   },
@@ -1763,7 +2373,9 @@
     "name": "Gibraltar (British Overseas Territory)",
     "slug": "gibraltar",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/gibraltar"
   },
@@ -1771,7 +2383,9 @@
     "name": "Antarctica/British Antarctic Territory",
     "slug": "antarctica-british-antarctic-territory",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/antarctica-british-antarctic-territory"
   },
@@ -1779,7 +2393,9 @@
     "name": "Montserrat",
     "slug": "montserrat",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/montserrat"
   },
@@ -1787,7 +2403,9 @@
     "name": "British Indian Ocean Territory",
     "slug": "british-indian-ocean-territory",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/british-indian-ocean-territory"
   },
@@ -1795,7 +2413,9 @@
     "name": "Pitcairn Island",
     "slug": "pitcairn-island",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/pitcairn-island"
   },
@@ -1803,7 +2423,9 @@
     "name": "Anguilla (British Overseas Territory)",
     "slug": "anguilla",
     "alert": "normal",
+    "all_alerts": [],
     "level": 1,
+    "has_mixed_risk": false,
     "source": "fcdo",
     "url": "https://www.gov.uk/foreign-travel-advice/anguilla"
   }
