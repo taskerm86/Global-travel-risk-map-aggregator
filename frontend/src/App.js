@@ -4,6 +4,15 @@ import "leaflet/dist/leaflet.css";
 
 const LEVEL_COLORS = { 1: "#2ecc71", 2: "#f39c12", 3: "#e67e22", 4: "#e74c3c" };
 const LEVEL_LABELS = { 1: "Low Risk", 2: "Some Risk", 3: "High Risk", 4: "Do Not Travel" };
+const ALERT_LABELS = {
+  "normal": "Normal",
+  "avoid_non_essential_travel": "Avoid non-essential travel",
+  "avoid_all_but_essential_travel_to_parts": "Avoid all but essential travel to parts",
+  "avoid_all_but_essential_travel": "Avoid all but essential travel",
+  "avoid_all_travel_to_parts": "Avoid all travel to parts",
+  "avoid_all_travel": "Avoid all travel",
+  "avoid_all_travel_to_whole_country": "Avoid all travel to whole country",
+};
 
 export default function App() {
   const [advisories, setAdvisories] = useState([]);
@@ -13,7 +22,7 @@ export default function App() {
   useEffect(() => {
     fetch("https://travel-risk-map-api.onrender.com/advisories")
       .then(r => r.json())
-      .then(data => { console.log("Loaded advisories:", data); setAdvisories(data); })
+      .then(data => { setAdvisories(data); })
       .catch(e => console.error("API error:", e));
     fetch("https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson")
       .then(r => r.json())
@@ -48,7 +57,7 @@ export default function App() {
         <h1 style={{ margin: 0, fontSize: 18 }}>🗺️ Global Travel Risk Map</h1>
         <span style={{ marginLeft: 20, fontSize: 12, color: "#aaa" }}>Source: FCDO</span>
       </div>
-      <MapContainer center={[20, 0]} zoom={2} style={{ height: "100%", width: "100%", paddingTop: 40 }}>
+      <MapContainer center={[20, 0]} zoom={2} style={{ height: "100%", width: "100%" }}>
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
         {geoData && advisories.length > 0 && (
           <GeoJSON
@@ -59,19 +68,52 @@ export default function App() {
           />
         )}
       </MapContainer>
+
       {selected && (
-        <div style={{ position: "absolute", bottom: 30, left: 30, zIndex: 1000, background: "white", padding: 20, borderRadius: 8, boxShadow: "0 2px 10px rgba(0,0,0,0.3)", minWidth: 280 }}>
+        <div style={{ position: "absolute", bottom: 30, left: 30, zIndex: 1000, background: "white", padding: 20, borderRadius: 8, boxShadow: "0 2px 10px rgba(0,0,0,0.3)", minWidth: 300, maxWidth: 340 }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
             <h3 style={{ margin: 0 }}>{selected.name}</h3>
             <button onClick={() => setSelected(null)} style={{ border: "none", background: "none", cursor: "pointer", fontSize: 18 }}>×</button>
           </div>
+
           <div style={{ marginTop: 10, padding: "8px 12px", borderRadius: 4, background: LEVEL_COLORS[selected.level] || "#eee", color: "white", fontWeight: "bold" }}>
             {LEVEL_LABELS[selected.level] || selected.level}
           </div>
-          <p style={{ margin: "10px 0 0", color: "#666", fontSize: 12 }}>{selected.alert}</p>
-          {selected.url && <a href={selected.url} target="_blank" rel="noreferrer" style={{ display: "block", marginTop: 10, color: "#0066cc" }}>View FCDO advice →</a>}
+
+          {selected.has_mixed_risk && (
+            <div style={{ marginTop: 8, padding: "6px 10px", background: "#fff3cd", border: "1px solid #ffc107", borderRadius: 4, fontSize: 12 }}>
+              ⚠️ Risk varies by region within this country
+            </div>
+          )}
+
+          {selected.all_alerts && selected.all_alerts.length > 0 && (
+            <div style={{ marginTop: 10 }}>
+              <div style={{ fontSize: 11, color: "#888", marginBottom: 4 }}>FCDO ADVISORIES:</div>
+              {selected.all_alerts.map((alert, i) => (
+                <div key={i} style={{ display: "flex", alignItems: "center", marginTop: 4 }}>
+                  <div style={{ width: 10, height: 10, borderRadius: "50%", background: LEVEL_COLORS[{
+                    "normal": 1,
+                    "avoid_non_essential_travel": 2,
+                    "avoid_all_but_essential_travel_to_parts": 3,
+                    "avoid_all_but_essential_travel": 3,
+                    "avoid_all_travel_to_parts": 3,
+                    "avoid_all_travel": 4,
+                    "avoid_all_travel_to_whole_country": 4,
+                  }[alert] || 1], marginRight: 6, flexShrink: 0 }} />
+                  <span style={{ fontSize: 12 }}>{ALERT_LABELS[alert] || alert}</span>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {selected.url && (
+            <a href={selected.url} target="_blank" rel="noreferrer" style={{ display: "block", marginTop: 12, color: "#0066cc", fontSize: 13 }}>
+              View full FCDO advice →
+            </a>
+          )}
         </div>
       )}
+
       <div style={{ position: "absolute", top: 50, right: 10, zIndex: 1000, background: "white", padding: 15, borderRadius: 8, boxShadow: "0 2px 10px rgba(0,0,0,0.3)" }}>
         <strong style={{ fontSize: 13 }}>Risk Level</strong>
         {Object.entries(LEVEL_COLORS).map(([l, c]) => (
@@ -83,8 +125,3 @@ export default function App() {
         <div style={{ display: "flex", alignItems: "center", marginTop: 6 }}>
           <div style={{ width: 16, height: 16, background: "#cccccc", marginRight: 8, borderRadius: 2 }} />
           <span style={{ fontSize: 12 }}>No data</span>
-        </div>
-      </div>
-    </div>
-  );
-}
