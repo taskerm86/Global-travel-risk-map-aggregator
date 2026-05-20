@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Ecuador",
+    "slug": "ecuador",
+    "alert": "avoid_all_but_essential_travel_to_parts",
+    "level": 3,
+    "source": "fcdo",
+    "url": "https://www.gov.uk/foreign-travel-advice/ecuador"
+  },
+  {
+    "name": "Turkey",
+    "slug": "turkey",
+    "alert": "avoid_all_travel_to_parts",
+    "level": 1,
+    "source": "fcdo",
+    "url": "https://www.gov.uk/foreign-travel-advice/turkey"
+  },
+  {
+    "name": "Peru",
+    "slug": "peru",
+    "alert": "avoid_all_but_essential_travel_to_parts",
+    "level": 3,
+    "source": "fcdo",
+    "url": "https://www.gov.uk/foreign-travel-advice/peru"
+  },
+  {
+    "name": "Bolivia",
+    "slug": "bolivia",
+    "alert": "avoid_all_travel_to_parts",
+    "level": 1,
+    "source": "fcdo",
+    "url": "https://www.gov.uk/foreign-travel-advice/bolivia"
+  },
+  {
+    "name": "Colombia",
+    "slug": "colombia",
+    "alert": "avoid_all_but_essential_travel_to_parts",
+    "level": 3,
+    "source": "fcdo",
+    "url": "https://www.gov.uk/foreign-travel-advice/colombia"
+  },
+  {
+    "name": "Chile",
+    "slug": "chile",
+    "alert": "normal",
+    "level": 1,
+    "source": "fcdo",
+    "url": "https://www.gov.uk/foreign-travel-advice/chile"
+  },
+  {
+    "name": "Uganda",
+    "slug": "uganda",
+    "alert": "normal",
+    "level": 1,
+    "source": "fcdo",
+    "url": "https://www.gov.uk/foreign-travel-advice/uganda"
+  },
+  {
+    "name": "Croatia",
+    "slug": "croatia",
+    "alert": "normal",
+    "level": 1,
+    "source": "fcdo",
+    "url": "https://www.gov.uk/foreign-travel-advice/croatia"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "slug": "bosnia-and-herzegovina",
+    "alert": "normal",
+    "level": 1,
+    "source": "fcdo",
+    "url": "https://www.gov.uk/foreign-travel-advice/bosnia-and-herzegovina"
+  },
+  {
+    "name": "Tanzania",
+    "slug": "tanzania",
+    "alert": "avoid_all_but_essential_travel_to_parts",
+    "level": 3,
+    "source": "fcdo",
+    "url": "https://www.gov.uk/foreign-travel-advice/tanzania"
+  },
+  {
+    "name": "USA",
+    "slug": "usa",
+    "alert": "normal",
+    "level": 1,
+    "source": "fcdo",
+    "url": "https://www.gov.uk/foreign-travel-advice/usa"
+  },
+  {
+    "name": "Mexico",
+    "slug": "mexico",
+    "alert": "avoid_all_but_essential_travel_to_parts",
+    "level": 3,
+    "source": "fcdo",
+    "url": "https://www.gov.uk/foreign-travel-advice/mexico"
+  },
+  {
+    "name": "Canada",
+    "slug": "canada",
+    "alert": "normal",
+    "level": 1,
+    "source": "fcdo",
+    "url": "https://www.gov.uk/foreign-travel-advice/canada"
+  },
+  {
+    "name": "Costa Rica",
+    "slug": "costa-rica",
+    "alert": "normal",
+    "level": 1,
+    "source": "fcdo",
+    "url": "https://www.gov.uk/foreign-travel-advice/costa-rica"
+  },
+  {
+    "name": "Democratic Republic of the Congo",
+    "slug": "democratic-republic-of-the-congo",
+    "alert": "avoid_all_travel_to_parts",
+    "level": 1,
+    "source": "fcdo",
+    "url": "https://www.gov.uk/foreign-travel-advice/democratic-republic-of-the-congo"
+  },
+  {
+    "name": "Mozambique",
+    "slug": "mozambique",
+    "alert": "avoid_all_travel_to_parts",
+    "level": 1,
+    "source": "fcdo",
+    "url": "https://www.gov.uk/foreign-travel-advice/mozambique"
+  },
+  {
+    "name": "Austria",
+    "slug": "austria",
+    "alert": "normal",
+    "level": 1,
+    "source": "fcdo",
+    "url": "https://www.gov.uk/foreign-travel-advice/austria"
+  },
+  {
+    "name": "Cuba",
+    "slug": "cuba",
+    "alert": "avoid_all_but_essential_travel_to_whole_country",
+    "level": 1,
+    "source": "fcdo",
+    "url": "https://www.gov.uk/foreign-travel-advice/cuba"
+  },
+  {
+    "name": "Belize",
+    "slug": "belize",
+    "alert": "normal",
+    "level": 1,
+    "source": "fcdo",
+    "url": "https://www.gov.uk/foreign-travel-advice/belize"
+  },
+  {
+    "name": "Turkmenistan",
+    "slug": "turkmenistan",
+    "alert": "normal",
+    "level": 1,
+    "source": "fcdo",
+    "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan"
+  }
+]
